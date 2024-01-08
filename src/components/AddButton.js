@@ -6,7 +6,7 @@ const AddButton = ({ setApiResponse, inputNumber }) => {
     try {
       if (inputNumber !== null) {
         const response = await axios.post(
-          "https://53bc957d-7001-43e4-9b84-298fed7cb25b-00-3714vg5vl0kf8.riker.replit.dev/numbers/add",
+          "https://puremedspa-backend-production.up.railway.app/numbers/add",
           {
             number: inputNumber,
           }

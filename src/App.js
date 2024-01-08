@@ -6,9 +6,10 @@ const App = () => {
   return (
     <div>
       <h1>
-        {/* <img className="logo" src="/pureLogo.png" alt="Pure Med Spa" /> */}
-        Pure Medical Spa
+        <img className="logo" src="/pureLogo.png" alt="Pure Med Spa" />
+        {/* Pure Medical Spa */}
       </h1>
+      <h1>DNC Check</h1>
       <Form />
     </div>
   );
