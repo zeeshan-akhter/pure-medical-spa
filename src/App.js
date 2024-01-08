@@ -9,7 +9,7 @@ const App = () => {
         <img className="logo" src="/pureLogo.png" alt="Pure Med Spa" />
         {/* Pure Medical Spa */}
       </h1>
-      <h1>DNC Check</h1>
+      <h2>DNC Check</h2>
       <Form />
     </div>
   );
