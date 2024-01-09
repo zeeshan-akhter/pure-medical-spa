@@ -16,7 +16,7 @@ const InputField = ({ setNumber, setInputNumberValue }) => {
 
   return (
     <div>
-      <label htmlFor="numberInput">Number:</label>
+      <label htmlFor="numberInput">Set Number:</label>
       <input
         type="number"
         id="numberInput"
@@ -27,8 +27,8 @@ const InputField = ({ setNumber, setInputNumberValue }) => {
       <button type="button" onClick={handleAddNumber}>
         Set Number
       </button>
-      <hr/>
-      <label htmlFor="setNumber">Set Number:</label>
+      <hr />
+      <label htmlFor="setNumber">Number:</label>
       <h4 id="setNumber">{setInputNumberValue}</h4>
     </div>
   );
