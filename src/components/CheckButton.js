@@ -55,6 +55,7 @@ const CheckButton = () => {
         // setInputNumber("");
       }
     } catch (error) {
+      toast.error("Error checking data!! ");
       console.error("Error checking data:", error);
     }
   };
