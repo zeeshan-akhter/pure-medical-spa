@@ -46,7 +46,7 @@ const CheckButton = () => {
     try {
       if (inputNumber.trim() !== "") {
         const response = await axios.get(
-          `https://puremedspa-backend-production.up.railway.app/numbers/check/${inputNumber}`
+          `https://puremedspa-dnc-backend-production.up.railway.app/numbers/check/${inputNumber}`
         );
         setApiResponse(response.data.message);
         setModalIsOpen(true);
