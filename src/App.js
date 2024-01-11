@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "./components/Form";
 import "./App.css";
-import { ToastContainer } from "react-toastify";
+// import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 
@@ -14,7 +14,7 @@ const App = () => {
       </h1>
       <h2>DNC Check</h2>
       <Form />
-      <ToastContainer />
+      {/* <ToastContainer /> */}
     </div>
   );
 };
